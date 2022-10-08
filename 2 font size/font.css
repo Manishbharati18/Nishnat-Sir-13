@@ -1,0 +1,8 @@
+.operations button{
+  color: black;
+  
+}
+.operations button:hover{
+  color: rgb(216, 121, 25);
+  
+}

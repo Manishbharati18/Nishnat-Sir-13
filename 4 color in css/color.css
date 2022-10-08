@@ -1,0 +1,52 @@
+*{
+    margin: 10px;
+}
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 15vh;
+  border: 2px solid rgb(26, 3, 3);
+  outline: none;
+  padding: 1rem;
+  
+}
+.operations{
+   
+    border-radius: 4px;
+    
+    
+}
+.operations .red{
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+.operations .red:hover{
+    
+    color: red;
+    border-color: red;
+   
+}
+
+.operations .green{
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+   
+}
+.operations .green:hover{
+    
+    color: green;
+    border-color: green;
+   
+}
+.operations .blue{
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+   
+}
+.operations .blue:hover{
+    
+    color: blue;
+    border-color: blue;
+   
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+
+  padding: 20px;
+  text-align: center;
+}
+
+h4 {
+  margin: 30px 0px;
+  font-family: var(--custom-font);
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+#b1 {
+  background-color: var(--primary-color);
+  color: rgb(210, 22, 22);
+}
+
+#b2 {
+  background-color: var(--secondary-color);
+  color: rgb(149, 48, 48);
+}
+
+#b1:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 0.5px solid var(--primary-color);
+}
+
+#b2:hover {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 0.5px solid var(--secondary-color);
+}
